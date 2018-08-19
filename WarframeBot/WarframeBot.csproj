@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="IF $(ConfigurationName) == Release COPY /Y &quot;$(ProjectDir)App.config&quot; &quot;$(ProjectDir)App.debug.config&quot;&#xD;&#xA;IF $(ConfigurationName) == Release COPY /Y &quot;$(ProjectDir)App.release.config&quot; &quot;$(ProjectDir)App.config&quot;" />
+  </Target>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="IF $(ConfigurationName) == Release COPY /Y &quot;$(ProjectDir)App.debug.config&quot; &quot;$(ProjectDir)App.config&quot;" />
+  </Target>
+
+</Project>

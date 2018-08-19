@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarframeBot", "WarframeBot\WarframeBot.csproj", "{23542804-45A8-4CC3-A759-02DD3DCED4CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23542804-45A8-4CC3-A759-02DD3DCED4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23542804-45A8-4CC3-A759-02DD3DCED4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23542804-45A8-4CC3-A759-02DD3DCED4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23542804-45A8-4CC3-A759-02DD3DCED4CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D63E37B-4975-4EF0-AFF1-DC1C9357A4AF}
+	EndGlobalSection
+EndGlobal
