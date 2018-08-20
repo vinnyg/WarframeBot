@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WarframeWorldStateApi.WarframeEvents
+﻿namespace WarframeWorldStateApi.WarframeEvents
 {
     //A container for all related information regarding a mission
     public class MissionInfo
@@ -21,8 +15,8 @@ namespace WarframeWorldStateApi.WarframeEvents
         public MissionInfo(string factionName, string missionType, int credits, string reward, int rewardQuantity, int minLevel, int maxLevel, bool requiresArchwing)
         {
             //This is the mission information of the faction you are opposing
-            Faction = WarframeWorldStateApi.WarframeEvents.Properties.Faction.GetName(factionName);
-            MissionType = WarframeWorldStateApi.WarframeEvents.Properties.MissionType.GetName(missionType);
+            Faction = Properties.Faction.GetName(factionName);
+            MissionType = Properties.MissionType.GetName(missionType);
             Credits = credits;
             Reward = reward;
             RewardQuantity = rewardQuantity;

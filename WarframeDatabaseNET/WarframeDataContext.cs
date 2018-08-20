@@ -1,8 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.Data.Sqlite;
-using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.Data.Sqlite;
+using Microsoft.EntityFrameworkCore;
 using WarframeDatabaseNet.Core.Domain;
 
 namespace WarframeDatabaseNet

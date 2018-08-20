@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace WarframeEventServices
+﻿namespace WarframeEventServices
 {
     public class WarframeEventParser
     {

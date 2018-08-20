@@ -1,5 +1,4 @@
-﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +10,6 @@ using WarframeWorldStateApi.WarframeEvents;
 
 namespace WarframeWorldStateApi.Components
 {
-    //Parses the contents of a JSON file for Warframe events
     public class WarframeEventInformationParser
     {
         public WarframeEventInformationParser() : this(new WarframeJSONScraper())

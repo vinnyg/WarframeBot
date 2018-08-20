@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DiscordSharpTest.Events.Extensions
 {
-    //General extension methods
     public static class ExtensionMethods
     {
         public static string Reverse(this string str)

@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using DiscordSharpTest.Events.Extensions;
+using System;
+using System.Configuration;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using DiscordSharpTest.Events.Extensions;
+using System.Text.RegularExpressions;
 using WarframeWorldStateApi.WarframeEvents;
 using WarframeWorldStateApi.WarframeEvents.Properties;
-using System.Configuration;
-using System.Text.RegularExpressions;
 
 namespace WubbyBot.Events.Extensions
 {

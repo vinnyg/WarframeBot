@@ -23,8 +23,7 @@ namespace WarframeWorldStateApi.WarframeEvents
                 _isDiscovered = value;
             }
         }
-
-        //Used to identify if the acolyte has been located again
+        
         private bool _isDiscovered = false;
         private bool _hasBeenLocatedFlag { get; set; }
 

@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.IO;
-using System.Configuration;
-using Newtonsoft.Json;
-using DSharpPlus;
+﻿using DSharpPlus;
 using DSharpPlus.Entities;
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Threading.Tasks;
-using System.Collections.ObjectModel;
 
 namespace DiscordWrapper
 {

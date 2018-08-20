@@ -1,8 +1,6 @@
-﻿using System;
-using Newtonsoft.Json.Linq;
-using System.Threading;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Net;
-using System.Configuration;
 using System.Runtime.Caching;
 
 namespace WarframeWorldStateApi.Components
