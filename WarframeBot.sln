@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarframeBot", "WarframeBot\WarframeBot.csproj", "{23542804-45A8-4CC3-A759-02DD3DCED4CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscordWrapper", "DiscordWrapper\DiscordWrapper.csproj", "{F2C42166-C95A-454C-AEE4-CEC985CB9E3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarframeDatabaseNET", "WarframeDatabaseNET\WarframeDatabaseNET.csproj", "{75032BF1-7CA2-4887-B080-13A7C513BB89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarframeWorldStateApi", "WarframeWorldStateApi\WarframeWorldStateApi.csproj", "{082FB547-5BC9-403F-93DF-B0CD5B2DC37D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarframeEventServices", "WarframeEventServices\WarframeEventServices.csproj", "{E37AA0C9-A8C4-4BCA-9AAE-256603EF9BC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{23542804-45A8-4CC3-A759-02DD3DCED4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23542804-45A8-4CC3-A759-02DD3DCED4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23542804-45A8-4CC3-A759-02DD3DCED4CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C42166-C95A-454C-AEE4-CEC985CB9E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C42166-C95A-454C-AEE4-CEC985CB9E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C42166-C95A-454C-AEE4-CEC985CB9E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C42166-C95A-454C-AEE4-CEC985CB9E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75032BF1-7CA2-4887-B080-13A7C513BB89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75032BF1-7CA2-4887-B080-13A7C513BB89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75032BF1-7CA2-4887-B080-13A7C513BB89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75032BF1-7CA2-4887-B080-13A7C513BB89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{082FB547-5BC9-403F-93DF-B0CD5B2DC37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082FB547-5BC9-403F-93DF-B0CD5B2DC37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082FB547-5BC9-403F-93DF-B0CD5B2DC37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082FB547-5BC9-403F-93DF-B0CD5B2DC37D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37AA0C9-A8C4-4BCA-9AAE-256603EF9BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37AA0C9-A8C4-4BCA-9AAE-256603EF9BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37AA0C9-A8C4-4BCA-9AAE-256603EF9BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37AA0C9-A8C4-4BCA-9AAE-256603EF9BC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

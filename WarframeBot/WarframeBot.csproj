@@ -13,4 +13,15 @@
     <Exec Command="IF $(ConfigurationName) == Release COPY /Y &quot;$(ProjectDir)App.debug.config&quot; &quot;$(ProjectDir)App.config&quot;" />
   </Target>
 
+  <ItemGroup>
+    <PackageReference Include="DSharpPlus" Version="3.2.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DiscordWrapper\DiscordWrapper.csproj" />
+    <ProjectReference Include="..\WarframeEventServices\WarframeEventServices.csproj" />
+    <ProjectReference Include="..\WarframeWorldStateApi\WarframeWorldStateApi.csproj" />
+  </ItemGroup>
+
 </Project>
